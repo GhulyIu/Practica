@@ -13,6 +13,8 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    runs-on: ubuntu-latest
+    
     steps:
       - name: Paso a Construccion
         run: echo "Este es el paso a construccion"
